@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos:7.3.1611
 MAINTAINER "Aidan Harris" <mail@aidanharris.io>
 ENV container docker
 RUN (cd /lib/systemd/system/sysinit.target.wants/; for i in *; do [ $i == \
